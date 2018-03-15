@@ -1,0 +1,160 @@
+﻿<html lang="en">
+	
+	<head>
+		<title>
+			COCE
+		</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	
+	<link rel="stylesheet" href="cocecss.css">
+	
+	<body>
+		
+			<div class="header">
+				<h1>Club Of Computer Science Engineers</h1>
+			</div>
+	
+		<div class="nav">
+			<ul>
+			<li><a href="sample.html"  class="active">HOME</a></li>
+			<li><a href="members.html">MEMBERS</a></li>
+			<li><a href="news.html" >NEWS</a></li>
+			<li><a href="about.html" >ABOUT</a></li>
+			<li  class="toright"><a href="*">CONTACT US</a></li>
+			</ul>
+		</div>
+		
+		<div class="slideshow-container">
+			<div class="mySlides">
+  				<p class="author">Image1</p>
+			</div>
+
+			<div class="mySlides">
+  				<p class="author">Image2</p>
+			</div>
+
+			<div class="mySlides">
+  			<p class="author">Image3</p>
+			</div>
+		</div>
+		
+		<script>
+			var slideIndex = 0;
+			showSlides();
+			function showSlides() {
+  				var i;
+  				var slides = document.getElementsByClassName("mySlides");
+  				for (i = 0; i < slides.length; i++) {
+      				slides[i].style.display = "none";  
+  				}
+  				slideIndex++;
+   				if (slideIndex > slides.length) {slideIndex = 1}    
+  				if (slideIndex < 1) {slideIndex = slides.length}
+  				slides[slideIndex-1].style.display = "block";  
+  				setTimeout(showSlides, 3000);
+			}
+		</script>
+	
+		
+		<div class="row">
+			
+			<div class="leftpart">
+				<h3>Events</h3>
+				<marqueue scroll="up">
+					<div class="container"><img class="image" src="/home/saikrishna/Desktop/coce/debug-headless-apps.jpg" style="width:100%;height:200px;">
+						<div class="overlay">
+							<center><p style="top:10%; font-size:20px; color:black;">Debugging</p></center>
+							<a href="debug.html"><p class="text">Know more</p></a>
+						</div>
+					</div><br><br>
+					<div class="container"><img class="image" src="/home/saikrishna/Desktop/coce/coding.png" style="width:100%;height:200px;">
+						<div class="overlay">
+							<center><p style="top:10%; font-size:20px; color:black;">Coding</p></center>
+							<a href="debug.html"><p class="text">Know more</p></a>
+						</div>
+					</div><br><br>
+					<div class="container"><img class="image" src="/home/saikrishna/Desktop/coce/quiz.jpg" style="width:100%;height:200px;">
+						<div class="overlay">
+							<center><p style="top:10%; font-size:20px; color:black;">Quiz</p></center>
+							<a href="debug.html"><p class="text">Know more</p></a>
+						</div>
+					</div><br><br>
+					<div class="container"><img class="image" src="/home/saikrishna/Desktop/coce/index.jpeg" style="width:100%;height:200px;">
+						<div class="overlay">
+							<center><p style="top:10%; font-size:20px; color:black;">Games</p></center>
+							<a href="debug.html"><p class="text">Know more</p></a>
+						</div>
+					</div>
+				</marqueue>
+			</div>
+			
+			<div class="center">
+				<h2>Headlines</h2>
+				
+<div class="timeline">
+  <div class="container1 left">
+	 
+    <div class="content">
+      <h2>Date</h2>
+      <p>News</p>
+		<div class="overlay1">
+		</div>
+    </div>
+  </div>
+  <div class="container1 right">
+    <div class="content">
+      <h2>Date</h2>
+      <p>News</p>
+		<div class="overlay1">
+		</div>
+	  </div>
+  </div>
+  <div class="container1 left">
+    <div class="content">
+      <h2>Date</h2>
+      <p>News</p>
+		<div class="overlay1">
+		</div>
+	  </div>
+  </div>
+  <div class="container1 right">
+    <div class="content">
+      <h2>Date</h2>
+      <p>News</p>
+		<div class="overlay1">
+		</div>
+	  </div>
+  </div>
+  <div class="container1 left">
+    <div class="content">
+	 <h2>Date</h2>
+      <p>News</p>
+		<div class="overlay1">
+		</div>
+	  </div>
+  </div>
+  <div class="container1 right">
+    <div class="content">
+      <h2>Date</h2>
+      <p>News</p>
+		<div class="overlay1">
+		</div>
+	  </div>
+  </div>
+</div>
+			</div>
+			<div class="rightpart">
+				<h3>Tech Innovations</h3>
+			</div>
+				<a href="#"class="totop"><img class ="contain" src="/home/saikrishna/Downloads/if_icon-arrow-up-b_211623.png" style="height:50px; width:50px;"></a>
+		</div>
+		
+			<div class="footer">
+				<p>about website</p>
+			</div>
+		
+	</body>
+	
+</html>

@@ -1,0 +1,126 @@
+<html lang="en">
+	
+	<head>
+		<title>
+			COCE
+		</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	
+	<link rel="stylesheet" href="cocecss.css">
+	
+	<body>
+		
+			<div class="header">
+				<h1>Club Of Computer Science Engineers</h1>
+			</div>
+	
+		<div class="nav">
+			<ul>
+			<li><a href="sample.html" >HOME</a></li>
+			<li><a href="members.html">MEMBERS</a></li>
+			<li><a href="news.html" >NEWS</a></li>
+			<li><a href="about.html" class="active">ABOUT</a></li>
+			<li  class="toright"><a href="*">CONTACT US</a></li>
+			</ul>
+		</div>
+			<div class="row">
+			
+			<div class="leftpart">
+				<h3>Events</h3>
+				<marqueue scroll="up">
+					<div class="container"><img class="image" src="/home/saikrishna/Desktop/coce/debug-headless-apps.jpg" style="width:100%;height:200px;">
+						<div class="overlay">
+							<center><p style="top:10%; font-size:20px; color:black;">Debugging</p></center>
+							<a href="debug.html"><p class="text">Know more</p></a>
+						</div>
+					</div><br><br>
+					<div class="container"><img class="image" src="/home/saikrishna/Desktop/coce/coding.png" style="width:100%;height:200px;">
+						<div class="overlay">
+							<center><p style="top:10%; font-size:20px; color:black;">Coding</p></center>
+							<a href="debug.html"><p class="text">Know more</p></a>
+						</div>
+					</div><br><br>
+					<div class="container"><img class="image" src="/home/saikrishna/Desktop/coce/quiz.jpg" style="width:100%;height:200px;">
+						<div class="overlay">
+							<center><p style="top:10%; font-size:20px; color:black;">Quiz</p></center>
+							<a href="debug.html"><p class="text">Know more</p></a>
+						</div>
+					</div><br><br>
+					<div class="container"><img class="image" src="/home/saikrishna/Desktop/coce/index.jpeg" style="width:100%;height:200px;">
+						<div class="overlay">
+							<center><p style="top:10%; font-size:20px; color:black;">Games</p></center>
+							<a href="debug.html"><p class="text">Know more</p></a>
+						</div>
+					</div>
+				</marqueue>
+			</div>
+        <div class="center">
+          <div class="center2">
+	   <div class="tab">
+        <button class="tablinks" onclick="openblog(event, 'jntuk')" id="defaultOpen">Jntuk</button>
+        <button class="tablinks" onclick="openblog(event, 'cse')">CSE</button>
+        <button class="tablinks" onclick="openblog(event, 'coce')">COCE</button>
+       </div>
+       <div id="jntuk" class="tabcontent">
+         <div class="card">
+          <img src="jntuk.jpg" alt="John" style="width:100%">
+          <h1>OUR COLLEGE</h1>
+          <p class="title1">JNTU UCEK</p>
+          <p>Enter your matter here</p>
+         </div>
+       </div>
+       <div id="cse" class="tabcontent">
+        <div class="card">
+         <img src="j2.jpg" alt="John" style="width:100%">
+         <h1>OUR DEPT</h1>
+         <p class="title1">CSE BLOCK</p>
+           <p>Enter your matter here</p>
+		</div> 
+       </div>
+       <div id="coce" class="tabcontent">
+         <div class="card">
+           <img src="jntuk.jpg" alt="John" style="width:100%">
+           <h1>OUR ORGANISATION</h1>
+           <p class="title1">CLUB OF COMPUTER ENGINEERS</p>
+           <p>Enter your matter here</p>
+         </div>
+       </div>
+	  </div>
+	 </div>
+	 <div class="right">
+	
+     </div>
+
+	<script>
+function openblog(evt,blog) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(blog).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+       	<div class="rightpart">
+				<h3>Tech Innovations</h3>
+			</div>
+				<a href="#"class="totop"><img class ="contain" src="/home/saikrishna/Downloads/if_icon-arrow-up-b_211623.png" style="height:50px; width:50px;"></a>
+		</div>
+		
+			<div class="footer">
+				<p>about website</p>
+			</div>
+		
+	</body>
+	
+</html>
